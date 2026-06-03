@@ -41,12 +41,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </head>
 <body>
     <h3>Bem-Vindo! <?php echo $_SESSION["usuario"]; ?></h3>
-    // link para a página de logout, que encerra a sessão do usuário 
+    <!-- link para a página de logout, que encerra a sessão do usuário  -->
     <a href="logout.php"> Sair</a>
 
     <hr>
     <h4>Cadastro de Novo Usuário.</h4>
-    // formulário de cadastro de novo usuário que envia os dados para o mesmo arquivo (home.php) usando o método POST
+    <!-- formulário de cadastro de novo usuário que envia os dados para o mesmo arquivo (home.php) usando o método POST -->
     <form method="POST">
         <label>Usuário:</label>
         <input type="text" name="usuario">

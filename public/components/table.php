@@ -1,9 +1,9 @@
 <h4>Usuários Cadastrados</h4>
 
-// tabela com borda e espaçamento interno para exibir os usuários cadastrados no banco de dados
+ <!-- tabela com borda e espaçamento interno para exibir os usuários cadastrados no banco de dados -->
 <table border="1" cellpadding="3">
 
-    // cabeçalho da tabela com as colunas ID, Usuário e Senha
+    <!-- cabeçalho da tabela com as colunas ID, Usuário e Senha -->
     <tr>
         <th>ID</th>
         <th>Usuário</th>

@@ -40,7 +40,7 @@
 <body>
     <h1>Sistema de Login Simples</h1>
 
-    // formulário de login que envia os dados para o mesmo arquivo (index.php) usando o método POST
+     <!-- formulário de login que envia os dados para o mesmo arquivo (index.php) usando o método POST -->
     <form method="POST">
         <label>Usuário:</label>
         <input type="text" name="usuario">
