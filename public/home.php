@@ -50,7 +50,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <form method="POST">
         <label>Usuário:</label>
         <input type="text" name="usuario">
-        <br>
+        <br><br>
         <label>Senha:</label>
         <input type="password" name="senha">
         <br>
@@ -72,6 +72,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     ?>
 
+    <?php
+
+    $sql = "DELETE FROM usuarios WHERE id = $id";
+
+    
+
+    ?>
+
+    <hr>
+    <h4>Exclusão de Usuário</h4>
+    <form>
+        <input type="text" id="excluir" placeholder="Insira o ID">
+        <button type="submit"> Excluir </button>
+    </form>
 
 
 </body>
