@@ -46,5 +46,5 @@ projeto/
 ## Implementando Novas Funcionalidades
 - Ideia: criar um campo para o usuário inserir o ID do usuário cadastrado que deseja remover junto com um botão de "Excluir". Depois de enviar, deve validar o ID, conectar-se ao banco de dados e excluir o usuário com aquele ID. No final deve aparecer uma mensagem avisando que a exclusão foi feita.
 - Arquivos criados/alterados: home.php
-- Dificuldades: não sabia como continuar com o PHP depois de fazer o input no home e o botão de excluir. Ainda não consegui entender muito bem SQL.
+- Dificuldades: não sabia como continuar com o PHP depois de criar o campo de input e o botão de excluir no home, mesmo pesquisando ainda fiquei um pouco perdida. Também tive dificuldade com o SQL, pois estou com dificuldades na aula da professora Talita, e ainda estou tentando ir atrás para entender melhor e tirar minhas dúvidas com ela.
 - Funcionalidade foi concluida? Não
